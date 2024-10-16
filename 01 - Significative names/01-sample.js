@@ -1,13 +1,16 @@
-function h(a) {
-    let b = [];
-    for (let i = 0; i < a.length; i++) {
-        if (a[i] % 2 === 0) {
-            b.push(a[i]);
-        }
+function filtrarNumeroPar(numeros) {
+  let filtrados = [];
+
+  for (let i = 0; i < numeros.length; i++) {
+    if (numeros[i] % 2 === 0) {
+      filtrados.push(numeros[i]);
     }
-    return b;
+  }
+
+  return filtrados;
 }
 
-let x = [1, 2, 3, 4, 5, 6];
-let y = h(x);
-console.log(y);
+let seqNumNaturais = [1, 2, 3, 4, 5, 6];
+let numPares = filtrarNumeroPar(seqNumNaturais);
+
+console.log(numPares);

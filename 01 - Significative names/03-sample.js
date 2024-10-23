@@ -1,9 +1,9 @@
-let d1 = "2024-01-01";
-let d2 = "2024-12-31";
+let dateOne = "2024-01-01";
+let dateTwo = "2024-12-31";
 
-function calcDif(d1, d2) {
-    return new Date(d2) - new Date(d1);
+function calcDiff(dateOne, dateTwo) {
+    return new Date(dateTwo) - new Date(dateOne);
 }
 
-let res = calcDif(d1, d2);
-console.log(res);
+let diferenca = calcDiff(dateOne, dateTwo);
+console.log(diferenca);

@@ -11,7 +11,7 @@ export default [
       "eol-last": "error",
       indent: [
         "error",
-        4,
+        2,
         {
           SwitchCase: 1,
         },
